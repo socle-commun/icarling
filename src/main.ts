@@ -1,24 +1,34 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import "@/style.css";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+import { Game } from "phaser";
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+import { BootScene } from "@/scenes/BootScene";
+import { PreloaderScene } from "@/scenes/PreloaderScene";
+import { MainMenuScene } from "@/scenes/MainMenuScene";
+
+document.addEventListener("DOMContentLoaded", function () {
+  //  Find out more information about the Game Config at:
+  //  https://newdocs.phaser.io/docs/3.87.0/Phaser.Types.Core.GameConfig
+  new Game({
+    type: Phaser.AUTO,
+    width: 1920,
+    height: 1080,
+    title: "Icarling",
+    pixelArt: true,
+    roundPixels: true,
+    parent: "app",
+    backgroundColor: "#000",
+    scale: {
+      autoRound: true,
+      width: 1024,
+      height: 768,
+      mode: Phaser.Scale.FIT,
+      autoCenter: Phaser.Scale.CENTER_BOTH
+    },
+    scene: [
+      BootScene,
+      PreloaderScene,
+      MainMenuScene
+    ]
+  });
+});

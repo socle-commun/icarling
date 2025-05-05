@@ -27,7 +27,7 @@ jobs:
         run: npm install # Or yarn install
 
       - name: Build VitePress site
-        run: npm run build # Adjust if your build script is different
+        run: npm run docs:build # Adjust if your build script is different
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

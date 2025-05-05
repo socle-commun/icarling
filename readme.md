@@ -26,10 +26,9 @@ _Icarling_ is a 2D whimsical platformer inspired by the myth of Icarus, reimagin
 
 ## ⚙️ Tech Stack
 
-- **Game Engine**: Custom (Platformer logic in Rust + Web frontend)
-- **Windowing/UI**: [Tauri](https://tauri.app/)
+- **Game Engine**: Custom (Platformer logic in Web frontend)
 - **Rendering**: WebGL or Canvas (TBD)
-- **Language**: Rust + TypeScript
+- **Language**: TypeScript
 
 ## 🧒 Character: Icarling
 

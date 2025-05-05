@@ -1,6 +1,6 @@
 # ICARLING
 
-**A whimsical myth-inspired platformer**
+A whimsical myth-inspired platformer
 
 ## 📜 Overview
 
@@ -68,7 +68,7 @@ A lighthearted platformer where players control **Icarling**, a mischievous chil
 
 ### Main Character
 
-**Icarling**
+Icarling
 
 - **Visuals**: Freckled cheeks, wax-dripping wings, patchwork clothes, flying goggles
 - **Abilities**: Jump, glide (limited time), wax boost (burst jump)

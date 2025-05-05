@@ -1,4 +1,4 @@
-# 📘 Icarling – Technical Documentation
+# 📘 Technical design documentation
 
 ## Overview
 

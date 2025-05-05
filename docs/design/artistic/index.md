@@ -1,4 +1,4 @@
-# 🎨 Icarling – Artistic Design Document
+# 🎨 Artistic Design Documentation
 
 ## Art Style
 

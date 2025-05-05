@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress"
 export default defineConfig({
   title: "Icarling",
   description: "The specification website for Icarling",
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,6 +21,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Design",
+        collapsed: false,
         items: [
           { text: "Technical", link: "/design/technical" },
           { text: "Artistic", link: "/design/artistic" }

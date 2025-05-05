@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Icarling
-  text: The specification website
+  text: The specification
   tagline: Because a game needs specs too
   actions:
     - theme: brand
@@ -14,11 +14,14 @@ hero:
       text: Artistic design
       link: /design/artistic
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  image:
+    src: /favicon.png
+    alt: Icarling
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

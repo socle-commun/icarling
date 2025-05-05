@@ -26,8 +26,8 @@ _Icarling_ is a 2D whimsical platformer inspired by the myth of Icarus, reimagin
 
 ## ⚙️ Tech Stack
 
-- **Game Engine**: Custom (Platformer logic in Web frontend)
-- **Rendering**: WebGL or Canvas (TBD)
+- **Game Engine**: Phaser (Platformer logic in Web frontend)
+- **Rendering**: WebGL
 - **Language**: TypeScript
 
 ## 🧒 Character: Icarling

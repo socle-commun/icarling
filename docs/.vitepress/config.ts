@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: process.env.NODE_ENV === "production" ? "/icarling/" : "/",
   title: "Icarling",
   description: "The specification website for Icarling",
   head: [["link", { rel: "icon", href: "/favicon.png" }]],
